@@ -13,7 +13,7 @@ const renderer = new THREE.WebGLRenderer({
 
 renderer.setSize(window.innerWidth, window.innerHeight);
 
-var dimension_container = document.querySelector(&quot;div.dimension_container&quot;);     
+var dimension_container = document.querySelector("div.dimension_container");     
       
 dimension_container.appendChild(renderer.domElement);
 
@@ -31,7 +31,7 @@ PrismGeometry = function ( vertices, height ) {
     ( function f( ctx ) {
 
         ctx.moveTo( vertices[0].x, vertices[0].y );
-        for (var i=1; i &lt; vertices.length; i++) {
+        for (var i=1; i < vertices.length; i++) {
             ctx.lineTo( vertices[i].x, vertices[i].y );
         }
         ctx.lineTo( vertices[0].x, vertices[0].y );
