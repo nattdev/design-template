@@ -68,7 +68,7 @@ div#us_section div.button{
 /*CIRCLES_DECORATION*/  
   
 div#us_section::before, div#porta_section::before, div#form_section::before  {
-    content: &quot;&quot;;
+    content: "";
     width: 93px;
     height: 93px;
     border-radius: 50%;
@@ -82,7 +82,7 @@ div#us_section::before, div#porta_section::before, div#form_section::before  {
 
   
 div#us_section::after, div#porta_section::after, div#form_section::after {
-    content: &quot;&quot;;
+    content: "";
     width: 93px;
     height: 93px;
     border-radius: 50%;
@@ -191,7 +191,7 @@ div#us_section::after, div#porta_section::after, div#form_section::after {
 /*DIMENSION_CONTAINER*/
 
 .dimension_container::before {
-    content: &quot;&quot;;
+    content: "";
     width: 50%;
     height: 102%;
     position: absolute;
