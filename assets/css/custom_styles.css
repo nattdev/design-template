@@ -137,7 +137,7 @@ div#us_section::after, div#porta_section::after, div#form_section::after {
 }  
   
 .header_main_title h3, div#us_section .Text div, div#porta_section .Text div, #form_section .Text div, div#services_section .Text div{
-    font-size: 24px;
+    font-size: 20px;
     font-weight: normal;
   	padding: 20px 0;
 }  
