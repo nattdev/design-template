@@ -437,7 +437,6 @@ div#form_section #ContactForm1 form div p.contact-form-error-message-with-border
 	color: #7f7f7f;
 	padding-left: 8px;
 	border: 1px solid #c2c2c2;
-  	font-family: inherit;
 	font-size: 1em;
 }
 
@@ -445,6 +444,9 @@ div#form_section #ContactForm1 form div p.contact-form-error-message-with-border
 	height: 38px;
 }
 
+.contact-form-email-message {
+	font-family: inherit;
+}
 
 .contact-form-name::placeholder, .contact-form-email::placeholder, .contact-form-email-message::placeholder {
 	color: #7f7f7f;
