@@ -137,7 +137,7 @@ div#porta_section .Text h3,
 #form_section h3,
 #services_section h3 {
   position: relative;
-  font-size: 96px;
+  font-size: 80px;
   font-weight: bold;
   z-index: 5000;
 }
