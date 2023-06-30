@@ -128,7 +128,7 @@ div#form_section::after {
   color: #fff;
   position: relative;
   z-index: 2600;
-  flex-basis: 55%;
+  flex-basis: 63%;
 }
 
 .header_main_title h1,
