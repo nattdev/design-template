@@ -417,7 +417,7 @@ div#form_section #ContactForm1 {
 
 div#form_section #ContactForm1 form {
   display: grid;
-  grid-template-rows: 35px 128px 30px;
+  grid-template-rows: 35px 128px auto;
   grid-template-columns: repeat(2, minmax(170px, 400px));
   grid-gap: 15px 5px;
   justify-content: center;
