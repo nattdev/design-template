@@ -279,6 +279,9 @@ div#services_section {
   justify-content: center;
   position: relative;
 }
+div#services_section #Text4 {
+  width: 100%;  
+}
 
 div#services_section h3 {
   text-align: center;
@@ -289,7 +292,7 @@ div#services_section .widget.Image {
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  padding: 20px 0;
+  padding: 40px;
 }
 
 div#services_section .Image div {
@@ -599,13 +602,14 @@ div#footer_section {
     opacity: 0.65;
     z-index: 50;
     top: 0;
+    justify-content: flex-end;
   }
 
   .dimension_container {
     position: absolute;
     top: -180px;
   }
-
+  
   div#porta_section {
     grid-template-rows: auto repeat(3, 1fr);
   }
