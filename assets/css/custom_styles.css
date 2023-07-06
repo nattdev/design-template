@@ -241,6 +241,9 @@ canvas {
   position: relative;
   width: 100%;
   text-align: center;
+  transform: scale(0.85);
+  right: -15px;
+  z-index: 2100;
 }
 
 .hand_container img {
